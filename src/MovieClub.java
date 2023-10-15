@@ -40,11 +40,9 @@ public abstract class MovieClub {
     }
 
     public String toString() {
-        System.out.println();
-        System.out.println(getClass().getSimpleName());
-        System.out.println("Ticket price: $" + getTicketPrice());
-        System.out.println("Benefits: " + getBenefits());
-        return null;
+        return "\n-" + getClass().getSimpleName() +
+                "-\n* Ticket price: $" + getTicketPrice() +
+                "\n* Benefits: " + getBenefits();
     }
 
 }

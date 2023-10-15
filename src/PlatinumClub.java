@@ -36,10 +36,9 @@ public class PlatinumClub extends MovieClub {
 
     @Override
     public String toString() {
-        super.toString();
-        System.out.println("Additional Benefits: " + getAdditionalBenefits());
-        System.out.println("Yearly fee: $" + getYearlyClubFee());
-        System.out.println("Monthly free passes: " + getFreePassCount());
-        return null;
+        return super.toString() +
+                "\n* Additional Benefits: " + getAdditionalBenefits() +
+                "\n* Yearly fee: $" + getYearlyClubFee() +
+                "\n* Monthly free passes: " + getFreePassCount();
     }
 }

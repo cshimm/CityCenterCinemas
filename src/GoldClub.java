@@ -27,9 +27,8 @@ public class GoldClub extends MovieClub {
 
     @Override
     public String toString() {
-        super.toString();
-        System.out.println("Additional Benefits: " + getAdditionalBenefits());
-        System.out.println("Yearly fee: $" + getYearlyClubFee());
-        return null;
+        return super.toString() +
+                "\n* Additional Benefits: " + getAdditionalBenefits() +
+                "\n* Yearly fee: $" + getYearlyClubFee();
     }
 }

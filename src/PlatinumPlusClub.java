@@ -27,7 +27,6 @@ public class PlatinumPlusClub extends PlatinumClub {
 
     @Override
     public String toString() {
-        super.toString();
-        return null;
+        return super.toString();
     }
 }

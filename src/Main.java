@@ -14,6 +14,6 @@ public class Main {
         movieClubs[3] = ppc;
 
         for (var club: movieClubs)
-            club.toString();
+            System.out.println(club.toString());
     }
 }
