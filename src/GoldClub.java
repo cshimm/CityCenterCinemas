@@ -1,7 +1,12 @@
+/**
+ * @author cameron shimmin
+ * Members of the GoldClub enjoy benefits like free soda and popcorn refills.
+ * They also receive a discount on movie ticket prices and have a yearly club fee.
+ */
 public class GoldClub extends MovieClub {
-    String additionalBenefits = "Free refills";
-    double ticketPriceDiscount = 0.9;
-    double yearlyClubFee = 15.;
+    private final  String additionalBenefits = "Free refills";
+    private final  double ticketPriceDiscount = 0.9;
+    private final  double yearlyClubFee = 15.;
 
     public GoldClub(double ticketPrice) {
         super(ticketPrice);

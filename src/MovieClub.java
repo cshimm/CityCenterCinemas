@@ -1,9 +1,22 @@
 /**
  * @author cameron shimmin
- * The base MoveClub class that all movie clubs inherit from
+ * <p>
+ * The MovieClub class is an abstract base class that represents a generic movie club membership.
+ * All movie clubs share common features, such as online ticketing, but they can have varying
+ * benefits and ticket prices depending on the specific type of club.
+ * This class serves as a template for creating different movie club types with customized benefits
+ * and ticket prices.
+ * </p>
  */
 public abstract class MovieClub {
+    /**
+     * The base benefits for all Movie Clubs
+     */
     private String benefits = "online ticketing";
+
+    /**
+     * The base ticket price for all MovieClubs
+     */
     private double ticketPrice;
 
     public MovieClub(double ticketPrice) {
